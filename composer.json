@@ -1,0 +1,23 @@
+{
+    "name": "china-zhangzheng/exam-sdk",
+    "description": "这是我的综合性composer包",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ChinaZhangzheng\\ExamSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "china-zhang-zheng",
+            "email": "477633585@qq.com"
+        }
+    ],
+    "require": {
+        "china-lishuo/oss-utils": "^1.2",
+        "elasticsearch/elasticsearch": "^8.4",
+        "firebase/php-jwt": "^6.3",
+        "sy-records/baidu-textcensor": "^1.0"
+    }
+}
