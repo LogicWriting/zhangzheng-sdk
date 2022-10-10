@@ -12,7 +12,30 @@ return [
     | Here you may specify which of the database connections below you wish
     | to use as your default connection for all database work. Of course
     | you may use many connections at once using the Database library.
-    |
+    |# zhangzheng-sdk
+````
+我的第一个composer
+````
+#安装ES
+````
+composer require elasticsearch/elasticsearch
+````
+#过滤敏感词
+````
+composer require sy-records/baidu-textcensor
+````
+#安装JWT
+````
+composer require firebase/php-jwt
+````
+#支付
+````
+支付前的配置文件
+composer require symfony/psr-http-message-bridge
+闫嵩达Pay2。0
+composer require yansongda/pay:^2.10 -vvv
+````
+
     */
 
     'default' => env('DB_CONNECTION', 'mysql'),
